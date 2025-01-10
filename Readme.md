@@ -1,7 +1,9 @@
+Here is the correctly formatted README content:
+
 # Notes Website
 
 ## Overview
-This is a Notes Web App built with the MERN stack. It allows users to register, log in, and manage their notes. The app features a secure authentication system using JWT, allowing users to add, edit, delete, and search for notes.
+This is a Notes Web App built with the MERN stack. It allows users to register, log in, and manage their notes. The app features a secure authentication system using JWT, allowing users to add, edit, [...]
 
 ---
 
@@ -39,53 +41,65 @@ This is a Notes Web App built with the MERN stack. It allows users to register, 
 ### Installation
 
 1. Clone the repository:
-
+   ```bash
    git clone https://github.com/your-username/notes-website.git
-Navigate to the backend directory and install dependencies:
+   ```
 
-cd notes-website/backend
-npm install
-Navigate to the frontend directory and install dependencies:
+2. Navigate to the backend directory and install dependencies:
+   ```bash
+   cd notes-website/backend
+   npm install
+   ```
 
-cd ../frontend
-npm install
-Create a .env file in the backend directory with the following environment variables:
+3. Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd ../frontend
+   npm install
+   ```
 
-ACCESS_TOKEN_SECRET=your_secret_key
-Running the Application
-Start the backend server:
+4. Create a `.env` file in the backend directory with the following environment variables:
+   ```env
+   ACCESS_TOKEN_SECRET=your_secret_key
+   ```
 
-cd backend
-npm start
-The backend server will run on port 8000 by default.
+### Running the Application
 
-Start the frontend React application:
+1. Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
+   The backend server will run on port 8000 by default.
 
-cd frontend
-npm start
-Usage
-Create an Account:
-Navigate to the Create Account page and fill in your information.
-Log In:
-Use the Log In page to authenticate yourself and get a token for accessing notes.
-Manage Notes:
-Once logged in, you can view, create, edit, and delete notes.
-Search Notes:
-You can search your notes by title or content.
-File Structure
+2. Start the frontend React application:
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+### Usage
+
+- **Create an Account**: Navigate to the Create Account page and fill in your information.
+- **Log In**: Use the Log In page to authenticate yourself and get a token for accessing notes.
+- **Manage Notes**: Once logged in, you can view, create, edit, and delete notes.
+- **Search Notes**: You can search your notes by title or content.
+
+### File Structure
+
+```
 notes-website/
 │
 ├── backend/
 │   ├── models/              # MongoDB models (User, Note)
-│   ├── .env                # Environment variables for backend
-│   ├── index.js           # Backend server entry point
-│   └── package.json        # Backend dependencies and scripts
+│   ├── .env                 # Environment variables for backend
+│   ├── index.js             # Backend server entry point
+│   └── package.json         # Backend dependencies and scripts
 │
 ├── frontend/
-│   ├── src/                # React components and app files
+│   ├── src/                 # React components and app files
 │   ├── public/              # Public assets
-│   ├── .env                # Environment variables for frontend (if needed)
-│   └── package.json        # Frontend dependencies and scripts
+│   ├── .env                 # Environment variables for frontend (if needed)
+│   └── package.json         # Frontend dependencies and scripts
 │
-└── README.md               # This file
-
+└── README.md                # This file
+```
