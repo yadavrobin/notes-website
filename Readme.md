@@ -63,8 +63,6 @@ Start the frontend React application:
 
 cd frontend
 npm start
-The frontend will run on port 3000 by default.
-
 Usage
 Create an Account:
 Navigate to the Create Account page and fill in your information.
