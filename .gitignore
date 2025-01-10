@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+.env
+
+# Backend
+backend/config.json
+
+# Frontend
+frontend/notes-app/node_modules/
+frontend/notes-app/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System files
+.DS_Store
+Thumbs.db

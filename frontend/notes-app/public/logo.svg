@@ -1,0 +1,15 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000" width="4000" height="4000">
+  <g id="SVGRepo_iconCarrier">
+    <polygon style="fill:#FFAD9E;" points="378.685,113.778 227.556,113.778 227.556,312.889 426.667,312.889 426.667,161.759"></polygon>
+    <polygon style="fill:#D3857A;" points="426.667,161.759 378.685,113.778 316.912,113.778 316.912,312.889 426.667,312.889"></polygon>
+    <polygon style="fill:#FFFFFF;" points="378.685,161.759 426.667,161.759 378.685,113.778"></polygon>
+    <polygon style="fill:#FFC61B;" points="264.907,199.111 113.778,199.111 113.778,398.222 312.889,398.222 312.889,247.093"></polygon>
+    <polygon style="fill:#D48B07;" points="312.889,247.093 264.907,199.111 205.433,199.111 205.433,398.222 312.889,398.222"></polygon>
+    <polygon style="fill:#FEE187;" points="264.907,247.093 312.889,247.093 264.907,199.111"></polygon>
+    <g>
+      <rect x="142.222" y="267.636" style="fill:#121149;" width="142.222" height="10.343"></rect>
+      <rect x="142.222" y="344.35" style="fill:#121149;" width="142.222" height="10.343"></rect>
+      <rect x="142.222" y="305.993" style="fill:#121149;" width="142.222" height="10.343"></rect>
+    </g>
+  </g>
+</svg>
