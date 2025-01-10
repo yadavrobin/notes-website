@@ -79,9 +79,8 @@ notes-website/
 │
 ├── backend/
 │   ├── models/              # MongoDB models (User, Note)
-│   ├── routes/              # API routes
 │   ├── .env                # Environment variables for backend
-│   ├── server.js           # Backend server entry point
+│   ├── index.js           # Backend server entry point
 │   └── package.json        # Backend dependencies and scripts
 │
 ├── frontend/
@@ -91,14 +90,4 @@ notes-website/
 │   └── package.json        # Frontend dependencies and scripts
 │
 └── README.md               # This file
-Known Issues
-None at the moment. Feel free to report any issues by creating a GitHub issue.
-Contributing
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes and commit them (git commit -am 'Add new feature').
-Push the changes (git push origin feature-branch).
-Create a new Pull Request.
-License
-MIT License
 
