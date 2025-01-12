@@ -1,5 +1,3 @@
-Here is the correctly formatted README content:
-
 # Notes Website
 
 ## Overview
